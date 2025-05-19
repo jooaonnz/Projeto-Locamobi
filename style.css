@@ -22,6 +22,7 @@ body {
   .logo img {
     height: 30px;
     margin-right: 10px;
+
   }
   
   .main-content {
@@ -82,6 +83,13 @@ body {
   
   .card img {
     max-width: 100%;
-    height: auto;
+    height: 70%;
     border-radius: 6px;
+  }
+
+
+  .card .utilitarios{
+    height: 140px;
+    max-width: 200px;
+
   }
