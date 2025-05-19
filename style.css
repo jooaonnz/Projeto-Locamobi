@@ -20,11 +20,16 @@ body {
   }
   
   .logo img {
-    height: 30px;
-    margin-right: 10px;
+    height: 40px;
+    margin-right: 20px;
 
   }
   
+.nome-logo{
+  font-family: Arial;
+  font-size: x-large;
+
+}
   .main-content {
     padding: 2rem;
   }
@@ -69,6 +74,12 @@ body {
     display: flex;
     gap: 1.5rem;
     flex-wrap: wrap;
+    display: flex;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    margin-top: 200px;
+    
   }
   
   .card {
@@ -78,18 +89,36 @@ body {
     padding: 1rem;
     text-align: center;
     flex: 1;
-    max-width: 200px;
+    max-width: 200px;   
   }
   
   .card img {
     max-width: 100%;
     height: 70%;
-    border-radius: 6px;
+    border-radius: 6px; 
   }
 
 
   .card .utilitarios{
-    height: 140px;
+    height: 120px;
     max-width: 200px;
+  }
+
+  .menu-login{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 10rem;
+    margin-bottom: 2rem;
+  }
+  
+  .voltar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    border-radius: 50px;
 
   }
+ 
