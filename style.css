@@ -103,22 +103,3 @@ body {
     height: 120px;
     max-width: 200px;
   }
-
-  .menu-login{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    gap: 10rem;
-    margin-bottom: 2rem;
-  }
-  
-  .voltar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-
-    border-radius: 50px;
-
-  }
- 

@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página de Login</title>
+  <link rel="stylesheet" href="/login.css" />
 </head>
 <body>
-    <div class="Voltar">
-        <a href="./index.html">Home page</a>
-    </div>
+  <div class="container">
+    <form class="login-form">
+      <h2>Login</h2>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Digite seu e-mail" name="email" required />
+
+      <label for="password">Senha</label>
+      <input type="password" id="password" placeholder="Digite sua senha" name="password" required />
+
+      <button type="submit">Entrar</button>
+      <a class="remember-password" href="/login-esqueci-senha.html">Esqueci minha senha</a>
+
+    </form>
+
+    
 
 
-    <form class="menu-login">
-        <div class="form-login">
-          <label for="local">Email</label>
-          <input type="text" id="local" placeholder="Digite seu Email..." />
-        </div>
-        <div class="form-senha">
-          <label for="data">Senha</label>
-          <input type="password" id="senha" placeholder="Digite sua senha"/>
-        </div>
-      </form>
+    <!-- Botão para a Homepage -->
+    <a href="/index.html" class="home-button">Home-page</a>
+  </div>
 </body>
 </html>
