@@ -20,6 +20,8 @@ body {
 
 /* Navigation */
 .navbar {
+  border:1px solid #212121;
+  border-radius: 31px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +30,7 @@ body {
 }
 
 .logo img {
-  height: 40px;
+  height: 80px;
 }
 
 .nav-links a {
@@ -53,7 +55,7 @@ body {
 }
 
 /* Hero Section */
-.hero {
+.hero{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,6 +63,11 @@ body {
   position: relative;
   overflow: hidden;
 }
+.hero img{
+  width: 400px ;
+
+}
+
 
 .hero-content {
   flex: 1;
@@ -94,10 +101,10 @@ body {
 }
 
 .hero-image::after {
-  content: '';
+  content: "";
   position: absolute;
-  right: -20%;
-  top: -20%;
+  right: -30%;
+  top: -10%;
   width: 140%;
   height: 140%;
   background-color: var(--primary-red);
