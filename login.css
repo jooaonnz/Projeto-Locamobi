@@ -3,7 +3,7 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: Arial, sans-serif;
+  font-family: Ubuntu, sans-serif;
   background-color: #f3f3f3;
 }
 
@@ -27,6 +27,7 @@ body, html {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   width: 300px;
+
 }
 
 
@@ -36,11 +37,18 @@ body, html {
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  
+}
+
+input:focus {
+  outline: none;
+  border-color: #6737D7;
 }
 
 
+
 .login-form button {
-  background-color: #FE8D27;
+  background-color: #E95949;
   color: white;
   border: none;
   cursor: pointer;
@@ -48,7 +56,7 @@ body, html {
 }
 
 .login-form button:hover {
-  background-color: #704a28;
+  background-color: #6737D7;
 }
 
 
@@ -56,29 +64,27 @@ body, html {
   margin-top: 20px;
   text-align: center;
   padding: 10px 20px;
-  background-color: #FE8D27;
+  background-color: #E95949;
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  border: solid, #CBB19A;
-  font-weight: bold;
   transition: background-color 0.3s;
   box-shadow: 3px 3px 10px #CBB19A;
 }
 
 .home-button:hover {
-  background-color: #6a4e35;
-  box-shadow: none;
+  background-color: #6737D7;
+  
 }
 
 .remember-password{
-  color: #c08f64;
+  color: #E95949;
   font-size: 12px;
   text-decoration: none;
 }
 
 .google-btn {
-    background-color: #f57c00;
+    background-color: #6737D7;
     color: white;
     border: none;
     border-radius: 8px;
@@ -105,4 +111,11 @@ body, html {
 .separador{
     text-align: center;
     color: #271401be;
+}
+
+.create-account{
+  margin-top: 2px;
+  font-size: 14px;
+  color:#E95949;
+
 }

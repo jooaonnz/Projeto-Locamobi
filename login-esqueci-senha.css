@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Ubuntu, sans-serif;
 }
 
 body {
@@ -61,13 +61,13 @@ input {
 
 input:focus {
     outline: none;
-    border-color: #FE8D27;
+    border-color: #6737D7;
 }
 
 button {
     width: 100%;
     padding: 0.8rem;
-    background-color: #FE8D27;
+    background-color: #E95949;
     color: white;
     border: none;
     border-radius: 5px;
@@ -77,7 +77,7 @@ button {
 }
 
 button:hover {
-    background-color: #88460b;
+    background-color: #6737D7;
 }
 
 .links {

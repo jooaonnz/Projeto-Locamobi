@@ -1,0 +1,117 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Ubuntu, sans-serif;
+    background-color: #f3f3f3;
+  }
+  
+  
+  .container {
+      background-color: #D2D2D2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+  
+  .login-form label{
+    margin-top: 10px;
+
+  }
+
+  
+  .login-form input,
+  .login-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #6737D7;
+}
+
+  
+  .login-form button {
+    background-color: #E95949;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #6737D7;
+  }
+  
+  
+  .home-button {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #E95949;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 3px 3px 10px #CBB19A;
+  }
+  
+  .home-button:hover {
+    background-color: #6737D7;
+    box-shadow: none;
+  }
+  
+  .remember-password{
+    color: #c08f64;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  
+  .google-btn {
+      background-color: #6737D7;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center; /* centraliza o conteúdo horizontalmente */
+      align-items: center;      /* centraliza verticalmente */
+      width: 100%;              /* opcional, pode ajustar como quiser */
+    }
+    
+    .google-content {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .google-icon {
+      width: 20px;
+      height: 20px;
+      display: block;
+    }
+  .separador{
+      text-align: center;
+      color: #271401be;
+  }
+  

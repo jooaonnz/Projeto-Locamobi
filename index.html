@@ -1,67 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Locamobi</title>
+    <title>Locamobi - Alugue seu veículo</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    
-    <link rel="stylesheet" href="./style.css">
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Locamobi">
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">INÍCIO</a>
+                <a href="#">SOBRE NÓS</a>
+            </div>
+            <a href="/login.html" class="login-btn">LOGIN</a>
+        </nav>
+    </header>
 
-    <!-- Top Navigation -->
-  <header class="header">
-    <button class="menu-icon">☰</button>
-    <div class="logo">
-      <img src="./assets/logo.png" alt="Locamobi" />
-      <span class ="nome-logo">LOCAMOBI</span>
-    </div>
-    <div class="login">
-      <a href="./login.html">Entrar</a>
-      <span class="user-icon">👤</span>
-    </div>
-  </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>
+                    <span class="highlight-red">ALUGUE</span> SEU<br>
+                    VEÍCULO <span class="highlight-purple">QUANDO</span><br>
+                    E <span class="highlight-purple">ONDE</span> QUISER
+                </h1>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary">EXPLORAR →</a>
+                    <a href="#" class="btn btn-secondary">SAIBA MAIS →</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="car.png" alt="Ford Edge SUV">
+            </div>
+        </section>
 
-  <!-- Seletor de Ação -->
-  <main class="main-content">
-    <div class="actions">
-      <button class="active">Alugar Veículo</button>
-      <button>Cadastrar Veículo</button>
-    </div>
-
-    <!-- Formulário de busca -->
-    <form class="rental-form">
-      <div class="form-group">
-        <label for="local">Local de Retirada</label>
-        <input type="text" id="local" placeholder="Digite o local..." />
-      </div>
-      <div class="form-group">
-        <label for="data">Data e Hora de Retirada</label>
-        <input type="datetime-local" id="data" />
-      </div>
-    </form>
-
-    <!-- Lista de categorias -->
-    <section class="categories">
-      <div class="card">
-        <img src="./assets/Economico.Br" alt="Econômico" />
-        <p>Econômico</p>
-      </div>
-      <div class="card">
-        <img src="./assets/intermediario.png" alt="Intermediário" />
-        <p>Intermediário</p>
-      </div>
-      <div class="card">
-        <img class ="premium"src="./assets/premium.jpg" alt="Premium" />
-        <p>Premium</p>
-      </div>
-      <div class="card">
-        <img class="utilitarios"src="./assets/utilitarios.png" alt="Utilitários" />
-        <p>Utilitários</p>
-      </div>
-    </section>
-  </main>    
-
-    
+        <section class="how-it-works">
+            <h2>COMO FUNCIONA?</h2>
+            <p class="section-description">O Locamobi facilita o aluguel de veículos tanto para locadores quanto para locatários, fazendo ambos serem atendidos a poucos cliques de distância.</p>
+            
+            <div class="features">
+                <div class="feature-card purple">
+                    <div class="icon">
+                        <img src="add-icon.png" alt="Adicionar">
+                    </div>
+                    <p>Os locatários podem adicionar veículos</p>
+                </div>
+                
+                <div class="feature-card red">
+                    <div class="icon">
+                        <img src="search-icon.png" alt="Procurar">
+                    </div>
+                    <p>O locador pode procurar por veículos, com todos os filtros que precisar.</p>
+                </div>
+                
+                <div class="feature-card purple">
+                    <div class="icon">
+                        <img src="star-icon.png" alt="Avaliar">
+                    </div>
+                    <p>O locador poderá avaliar o carro e os serviços do locatário, ajudando outros locadores a fazer sua escolha.</p>
+                </div>
+                
+                <div class="feature-card red">
+                    <div class="icon">
+                        <img src="handshake-icon.png" alt="Negócio">
+                    </div>
+                    <p>E pronto! Negócio feito!</p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
